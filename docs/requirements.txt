@@ -1,0 +1,4 @@
+pydoop
+findspark
+astropy
+astroconda
