@@ -1,4 +1,5 @@
 pydoop
 findspark
 astropy
+astromatic_wrapper
 astroconda
