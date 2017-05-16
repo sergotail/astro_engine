@@ -8,7 +8,7 @@ import json
 # TODO: add remove dirs tree method (to remove dirs tree as temorary, when pipeline stage is done on spark executor)
 class AEDirsTreeConfigurer:
 
-	def __init__(self, check_dirs_existance=False, **kwargs):
+	def __init__(self, check_dirs_existance=False, dirs_tree_root='.', **kwargs):
 
 		# declare non-setable class attributes
 		self._class_non_setable_attrs = ['_attr_prefix', '_cur_path', '_paths_names']
